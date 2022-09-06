@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTitle debe de mostrar el componente con el nombre del producto 1`] = `[Function]`;
+
+exports[`ProductTitle debe incrementar el contador 1`] = `
+<div
+  className="productCard undefined"
+>
+  <h1>
+    Product Card
+  </h1>
+  <span>
+    0
+  </span>
+  <button
+    onClick={[Function]}
+  />
+</div>
+`;
