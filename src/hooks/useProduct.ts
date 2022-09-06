@@ -12,7 +12,6 @@ export const useProduct = ({ onChange, product, value=0, initialValues }: usePro
     
     const [counter, setCounter] = useState<number>( initialValues?.count || value );
         
-    // console.log(initialValues?.count);
     const isMounted = useRef(false);
 
     const increaseBy = ( value: number) => {
